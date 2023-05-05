@@ -1,0 +1,19 @@
+div{
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+}
+.style-red{
+    background-color: red;
+    color: black;
+}
+.style-green{
+    background-color: green;
+}
+.style-blue{
+    background-color: blue;
+    color: black;
+}
+button{
+    margin: 20px;
+}
