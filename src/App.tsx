@@ -11,6 +11,10 @@ import Form from "./components/Form";
 import ChangeColors from "./components/ChangeColors";
 import Odessa from "./components/Odessa";
 import NewForm from "./components/NewForm";
+import FavBook from "./components/HWs/FavBook";
+import FavBand from "./components/HWs/FavBand";
+import { BandAlbumsCoversUrls, BandAlbumsNames, BandGenres, BandMembers, BandName, Recipe } from "./data/data";
+import Recipes from "./components/HWs/Recipes";
 
 function Test() {
   return React.createElement(
@@ -37,12 +41,27 @@ function App() {
   };
   return (
     <>
-    <NewForm></NewForm>
-    {/* <Odessa></Odessa> */}
-    {/* <ChangeColors></ChangeColors> */}
-    {/* <Form></Form> */}
-    {/* <CounterTest></CounterTest> */}
-    {/* <Menu></Menu> */}
+      <FavBook
+        name="Fahrenheit 451"
+        author="Ray Bradbury"
+        genre="Dystopian"
+        pages="158"
+        reviews="50000"
+      ></FavBook>
+      <FavBand
+        name={BandName}
+        members={BandMembers}
+        genres={BandGenres}
+        albumsNames={BandAlbumsNames}
+        albumsCoversUrls={BandAlbumsCoversUrls}
+      ></FavBand>
+      <Recipes recipe={Recipe} />
+      {/* <NewForm></NewForm> */}
+      {/* <Odessa></Odessa> */}
+      {/* <ChangeColors></ChangeColors> */}
+      {/* <Form></Form> */}
+      {/* <CounterTest></CounterTest> */}
+      {/* <Menu></Menu> */}
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
