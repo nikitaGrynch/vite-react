@@ -1,3 +1,5 @@
+import personPhoto from "../assets/person_photo.jpg";
+
 export const BandMembers: string[] = [
   "Kurt Cobain",
   "Krist Novoselic",
@@ -39,5 +41,16 @@ export const Recipe: Object = {
     "Remove small center waffle from the air fryer. Sprinkle shredded cheese onto egg waffle, and cook until the cheese is melted and egg white is completely set, about 1 to 2 minutes.",
     "Transfer egg waffle onto a plate; drizzle with maple syrup and serve immediately.",
   ],
-  imgUrl: 'https://www.allrecipes.com/thmb/ckHPDgXEkRY0uAduadQW_D45ERw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/air-fryer-waffle-egg-in-hole-4x3-d5a10b3cda4e4ddda68481790e098da1.jpeg'
+  imgUrl:
+    "https://www.allrecipes.com/thmb/ckHPDgXEkRY0uAduadQW_D45ERw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/air-fryer-waffle-egg-in-hole-4x3-d5a10b3cda4e4ddda68481790e098da1.jpeg",
+};
+
+export const Person: Object = {
+  name: "Nikita Grynchenko",
+  phone: "+38068xxxxx20",
+  email: "nikita.grynch@gmail.com",
+  residence: "Odessa, Ukraine",
+  workExperience: ["Firefly Ratings", "SanLav Order Bot"],
+  skills: [".NET", "JS", "React", "Databases", "OOP", "Python", "SwiftUI"],
+  img: personPhoto,
 };

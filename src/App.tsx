@@ -13,8 +13,20 @@ import Odessa from "./components/Odessa";
 import NewForm from "./components/NewForm";
 import FavBook from "./components/HWs/FavBook";
 import FavBand from "./components/HWs/FavBand";
-import { BandAlbumsCoversUrls, BandAlbumsNames, BandGenres, BandMembers, BandName, Recipe } from "./data/data";
+import {
+  BandAlbumsCoversUrls,
+  BandAlbumsNames,
+  BandGenres,
+  BandMembers,
+  BandName,
+  Person,
+  Recipe,
+} from "./data/data";
 import Recipes from "./components/HWs/Recipes";
+import FavFilm from "./components/HWs/FavFilm";
+import RealTimeClock from "./components/HWs/RealTimeClock";
+import Profile from "./components/HWs/Profile";
+import FavPet from "./components/HWs/FavPet";
 
 function Test() {
   return React.createElement(
@@ -41,7 +53,28 @@ function App() {
   };
   return (
     <>
-      <FavBook
+      <FavFilm
+        title="Training Day"
+        director="Antoine Fuqua"
+        year="2001"
+        studio="Warner Bros. Pictures"
+        imgUrl="https://upload.wikimedia.org/wikipedia/en/b/b3/Training_Day_Poster.jpg"
+      />
+
+      <RealTimeClock />
+
+      <Profile person={Person} />
+
+      <FavPet
+        name="Light"
+        type="dog"
+        model="Belgian Shepherd: Malinois"
+        imgUrl="https://cdn.britannica.com/85/232785-050-0EE871BE/Belgian-Malinois-dog.jpg"
+        favToy="credit card"
+        age="3 years"
+      />
+
+      {/* <FavBook
         name="Fahrenheit 451"
         author="Ray Bradbury"
         genre="Dystopian"
@@ -55,7 +88,7 @@ function App() {
         albumsNames={BandAlbumsNames}
         albumsCoversUrls={BandAlbumsCoversUrls}
       ></FavBand>
-      <Recipes recipe={Recipe} />
+      <Recipes recipe={Recipe} /> */}
       {/* <NewForm></NewForm> */}
       {/* <Odessa></Odessa> */}
       {/* <ChangeColors></ChangeColors> */}

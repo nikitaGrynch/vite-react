@@ -5,14 +5,14 @@ function Recipes(props: any) {
       <h2>{recipe.name}</h2>
       <h3>Ingredients</h3>
       <ul style={{ width: "200px", margin: "0 auto" }}>
-        {recipe.ingredients.map((el: string) => {
-          return <li>{el}</li>;
+        {recipe.ingredients.map((el: string, index: number) => {
+          return <li  key={index}>{el}</li>;
         })}
       </ul>
       <h3>Steps</h3>
       {recipe.steps.map((el: string, index: number) => {
         return (
-          <div style={{ width: "400px", margin: "0 auto" }}>
+          <div style={{ width: "400px", margin: "0 auto" }}  key={index}>
             <h5>Step {index + 1}</h5>
             <p>{el}</p>
           </div>
