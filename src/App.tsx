@@ -29,6 +29,7 @@ import Profile from "./components/HWs/Profile";
 import FavPet from "./components/HWs/FavPet";
 import FootballClub from "./components/HWs/FootballClub/FootballClub";
 import MagicEightBall from "./components/HWs/MagicEightBall";
+import City from "./components/HWs/City/City";
 
 function Test() {
   return React.createElement(
@@ -55,8 +56,9 @@ function App() {
   };
   return (
     <>
-      <FootballClub />
-      <MagicEightBall />
+    <City />
+      {/* <FootballClub />
+      <MagicEightBall /> */}
       {/* <FavFilm
         title="Training Day"
         director="Antoine Fuqua"
