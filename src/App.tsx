@@ -27,6 +27,8 @@ import FavFilm from "./components/HWs/FavFilm";
 import RealTimeClock from "./components/HWs/RealTimeClock";
 import Profile from "./components/HWs/Profile";
 import FavPet from "./components/HWs/FavPet";
+import FootballClub from "./components/HWs/FootballClub/FootballClub";
+import MagicEightBall from "./components/HWs/MagicEightBall";
 
 function Test() {
   return React.createElement(
@@ -53,7 +55,9 @@ function App() {
   };
   return (
     <>
-      <FavFilm
+      <FootballClub />
+      <MagicEightBall />
+      {/* <FavFilm
         title="Training Day"
         director="Antoine Fuqua"
         year="2001"
@@ -72,7 +76,7 @@ function App() {
         imgUrl="https://cdn.britannica.com/85/232785-050-0EE871BE/Belgian-Malinois-dog.jpg"
         favToy="credit card"
         age="3 years"
-      />
+      /> */}
 
       {/* <FavBook
         name="Fahrenheit 451"
