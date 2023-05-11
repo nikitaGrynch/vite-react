@@ -30,6 +30,9 @@ import FavPet from "./components/HWs/FavPet";
 import FootballClub from "./components/HWs/FootballClub/FootballClub";
 import MagicEightBall from "./components/HWs/MagicEightBall";
 import City from "./components/HWs/City/City";
+import Painter from "./components/HWs/Painter/Painter";
+import PersonalPage from "./components/HWs/PersonalPage";
+import RegistrationForm from "./components/HWs/RegistrationForm";
 
 function Test() {
   return React.createElement(
@@ -56,7 +59,10 @@ function App() {
   };
   return (
     <>
-    <City />
+    <Painter />
+    <PersonalPage /> 
+    <RegistrationForm />
+    {/* <City /> */}
       {/* <FootballClub />
       <MagicEightBall /> */}
       {/* <FavFilm

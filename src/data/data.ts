@@ -179,7 +179,7 @@ export const CityData = {
       "https://upload.wikimedia.org/wikipedia/commons/5/53/Потьомкінські_сходи_11.jpg",
       "https://holeinthedonut.com/wp-content/uploads/2017/10/Ukraine-Odessa-looking-up-Potemkin-Stairs-from-foot-of-wharf-with-funicular-at-left.jpg",
       "https://images.fineartamerica.com/images/artworkimages/medium/2/potemkin-stairs-fabrizio-troiani.jpg",
-      "https://live.staticflickr.com/3400/3505843874_f96f5cb9ff_b.jpg"
+      "https://live.staticflickr.com/3400/3505843874_f96f5cb9ff_b.jpg",
     ],
   },
   landmarks: [
@@ -190,8 +190,7 @@ export const CityData = {
     },
     {
       name: "Derybasivska Street",
-      photo:
-        "https://ukrainetour.com/chumak/voyage/2019/11/OdessaDeribas.jpg",
+      photo: "https://ukrainetour.com/chumak/voyage/2019/11/OdessaDeribas.jpg",
     },
     {
       name: "Odessa Catacombs",
@@ -205,6 +204,48 @@ export const CityData = {
     "https://cdnn21.img.ria.ru/images/07e6/0b/1e/1835228089_127:0:3551:1926_1920x0_80_0_0_148fbcec2ecc22174257958b0935725d.jpg",
     "https://uniqa.ua/content/news/002000-003000/_sm2_2151.jpg",
     "https://sofitel.accor.com/destinations/imagerie/odessa-overview-1400x788-1-88d9_1400x788.jpg",
-    "https://static.mk.ru/upload/entities/2022/12/29/22/articles/facebookPicture/9e/55/f9/24/d0fcaa6d928d1d516e80dda78122fc10.jpg"
+    "https://static.mk.ru/upload/entities/2022/12/29/22/articles/facebookPicture/9e/55/f9/24/d0fcaa6d928d1d516e80dda78122fc10.jpg",
   ],
+};
+
+export const PainterData = {
+  name: "Leonardo da Vinci",
+  photo:
+    "https://cdn.britannica.com/06/200006-131-ABB681CF/Leonardo-da-Vinci-Italian-Renaissance-Florence-Engraving-1500.jpg",
+  biography:
+    "Leonardo da Vinci was an Italian polymath of the Renaissance whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography. He is widely considered to be one of the greatest artists of all time and perhaps the most diversely talented person ever to have lived.",
+  theMostFamousPicture: {
+    name: "Mona Lisa",
+    photo:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+  },
+  pictures: [
+    {
+      name: "The Last Supper",
+      photo:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/The-Last-Supper-Restored-Da-Vinci_32x16.jpg/2560px-The-Last-Supper-Restored-Da-Vinci_32x16.jpg",
+    },
+    {
+      name: "Annunciation",
+      photo:
+        "https://upload.wikimedia.org/wikipedia/commons/f/f7/Annunciation_-_Google_Art_Project.jpg",
+    },
+    {
+      name: "The Vitruvian Man",
+      photo:
+        "https://upload.wikimedia.org/wikipedia/commons/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg",
+    },
+    {
+      name: "The Baptism of Christ",
+      photo:
+        "https://upload.wikimedia.org/wikipedia/commons/8/8e/The_Baptism_of_Christ_%28Verrocchio_%26_Leonardo%29.jpg",
+    },
+  ],
+};
+
+export const PersonalPageDefaultValues = {
+  name: "Oleg",
+  phone: "+380681233223",
+  email: "oleg@og.go",
+  city: "Odessa",
 };
